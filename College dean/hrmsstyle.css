@@ -1,0 +1,133 @@
+body{
+	background-image: url(BG/download6.jpg);
+	margin: 0px;
+	font-family: times new romans;
+	font-size: 14px;
+
+}
+
+
+#header{
+	background-color: rgb(14,29,31);
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 125px;
+	border-radius: 5px;
+	
+}
+.hrlogo{
+	max-height: 100%;
+	max-width: 100%;
+	float: right;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 0px;
+}
+
+.wldulogo{
+	max-height: 80%;
+	max-width: 120%;
+	float: left;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+
+#navbar ul{
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	list-style-type: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	background-color: rgb(14,29,31);
+	
+}
+
+#navbar ul li{
+	display: inline;
+	
+}
+
+#navbar ul li a{
+	text-decoration: none;
+	font-family: times new romans;
+	font-size: 22px;
+	color: white;
+	padding: .5em 1.3em;
+	transition:2s,transform 0.5s 1s;
+	cursor: pointer;
+	
+}
+
+#navbar ul li a:hover{
+	font-family: times new romans;
+	font-size: 22px;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	transform: rotate(360deg);
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+
+.main{
+	background-color: rgb(159,159,255);
+	/*margin: 10px;*/
+	margin-top: 4px;
+	margin-left: 180px;
+	margin-right: 50px;
+	padding: 5px;
+	height: 350px;	
+	/*padding: 20px;*/
+	border-radius: 5px;
+	font-size: 20px;
+	
+}
+
+#left-side-menu{
+	background-color: rgb(14,29,31);
+	margin-top: -360px;
+	margin-right: 1190px;
+	margin-left: 50px;
+	padding: 0px;
+	height: 360px;
+	float:left;
+	border-radius:5px;
+	width: 126px;
+}
+
+#left-side-menu-for-indexx{
+	background-color: rgb(14,29,31);
+	margin-top: -350px;
+	margin-right: 1190px;
+	margin-left: 50px;
+	padding: 0px;
+	height: 350px;
+	float:left;
+	border-radius:5px;
+	width: 126px;
+}
+
+
+#footer{
+	background-color: rgb(14,29,31);
+	margin-top: 4px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 60px;
+	border-radius: 5px;
+	padding-top:24px;
+	padding-bottom: 0px;
+	text-align:center;
+	color:white;
+	font-size:24px;
+	font-family:times new romans;
